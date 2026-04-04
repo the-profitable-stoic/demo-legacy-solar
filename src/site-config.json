@@ -1,0 +1,492 @@
+{
+  "business": {
+    "name": "Legacy Solar",
+    "phone": "555-sol-r94",
+    "category": "solar",
+    "city": "San Diego",
+    "state": "CA"
+  },
+  "design": {
+    "preset": {
+      "id": "solar-heritage-craft",
+      "categoryGroup": "solar",
+      "name": "Heritage Craft",
+      "recipeFile": "solar/heritage-craft.astro",
+      "colors": {
+        "primary": "#4A7A32",
+        "primaryDark": "#2c491e",
+        "primaryLight": "#c0d0b7",
+        "secondary": "#3f682b",
+        "accent": "#4A7A32",
+        "background": "#F5F2ED",
+        "backgroundAlt": "#3f682b",
+        "surface": "#EDEAE4",
+        "text": "#1A1510",
+        "textLight": "#4A4540",
+        "textOnDark": "#F5F2ED",
+        "border": "#D5CEBC"
+      },
+      "typography": {
+        "headingFont": "Playfair Display",
+        "headingWeight": "600",
+        "bodyFont": "Libre Franklin",
+        "bodyWeight": "400",
+        "headingStyle": "normal",
+        "scale": "1.25"
+      },
+      "shape": {
+        "borderRadius": "4px",
+        "buttonRadius": "4px",
+        "cardRadius": "6px",
+        "shadowStyle": "subtle"
+      },
+      "sections": {
+        "heroStyle": "dark",
+        "sectionAlternation": [
+          "light",
+          "surface",
+          "light",
+          "surface",
+          "light"
+        ],
+        "animationStyle": "fade",
+        "spacingScale": "generous"
+      }
+    },
+    "recipeId": "solar/heritage-craft"
+  },
+  "content": {
+    "homepage": {
+      "heroHeadline": "Solar Power Built for San Diego",
+      "heroSubline": "Custom solar solutions designed for Southern California homes. Harness 275+ sunny days a year with systems engineered for coastal corrosion and inland heat.",
+      "aboutTitle": "Illuminating San Diego Since 2012",
+      "aboutText": [
+        "Founded by local electricians who saw San Diego's untapped solar potential, Legacy Solar specializes in high-performance systems tailored to our unique climate. From Spanish revival roofs in North Park to mid-century ranches in Escondido, we know how to maximize energy production on every architecture.",
+        "We combine German engineering with California craftsmanship, using only microinverters and marine-grade mounting to withstand salty Pacific breezes. Every design starts with a shade analysis specific to your neighborhood's sun patterns.",
+        "As proud sponsors of San Diego River cleanup efforts and Solar for Schools programs, we're committed to making renewable energy accessible across all 920 ZIP codes."
+      ],
+      "valueProps": [
+        {
+          "title": "Climate-Smart Design",
+          "description": "Panels rated for 130°F inland heat with corrosion-resistant frames for coastal homes."
+        },
+        {
+          "title": "Neighborhood Expertise",
+          "description": "Permitting specialists familiar with San Diego's 17 municipal jurisdictions and HOA requirements."
+        },
+        {
+          "title": "Peak Performance",
+          "description": "Dynamic monitoring catches efficiency drops from Santa Ana winds or marine layer buildup."
+        },
+        {
+          "title": "Local Crews",
+          "description": "All installers live within 30 miles of your project with 5+ years of local experience."
+        }
+      ],
+      "ctaHeadline": "See Your Home's Solar Potential",
+      "ctaSubline": "Get a free 3D rendering showing panel placement optimized for your roof type and sun exposure."
+    },
+    "services": [
+      {
+        "slug": "residential-solar-installation",
+        "name": "Residential Solar Installation",
+        "shortDescription": "Complete home solar systems designed for San Diego's architecture and weather patterns.",
+        "description": "From Craftsman bungalows in South Park to modern estates in Del Mar, we engineer each residential solar array to complement your roof's pitch and materials. Our coastal installations feature zinc-coated racking to prevent salt air degradation, while inland systems include cooling ventilation for triple-digit summers.\n\nWe prioritize low-profile designs that maintain neighborhood aesthetics, using black-on-black panels for tile roofs and discreet rail systems for shake shingles. Every installation includes wildfire-safe rapid shutdown systems and seismic bracing that exceeds California building codes.",
+        "process": [
+          "Step 1: Satellite analysis of your roof's sun exposure accounting for nearby palms or Torrey pines",
+          "Step 2: Custom system sizing based on your SDGE usage history and electric vehicle plans",
+          "Step 3: Seamless permitting through San Diego's streamlined solar approval process",
+          "Step 4: Installation by crews trained on historic home preservation and new construction standards"
+        ],
+        "benefits": [
+          "20-25% more efficient than generic systems in marine layer conditions",
+          "10-year workmanship warranty honored by local technicians",
+          "SDGE interconnection paperwork handled end-to-end",
+          "Battery-ready infrastructure for future expansion"
+        ],
+        "faq": [
+          {
+            "question": "How does marine layer fog affect solar production?",
+            "answer": "Our systems use light-catching surface treatments that outperform standard panels by 18% during June gloom mornings. We also design for afternoon sun surges typical in Ocean Beach and Point Loma."
+          },
+          {
+            "question": "What about HOA restrictions in La Jolla or Coronado?",
+            "answer": "As certified partners with the Solar Rights Act Coalition, we successfully navigate view preservation rules and historical district requirements across San Diego County."
+          },
+          {
+            "question": "Can my older home handle solar panel weight?",
+            "description": "For 1920s-50s homes, we conduct rafters inspection and reinforce as needed with lightweight aluminum framing - a process we've perfected on Spanish revivals in Normal Heights and Mission Hills."
+          }
+        ]
+      },
+      {
+        "slug": "solar-battery-storage",
+        "name": "Solar Battery Storage",
+        "shortDescription": "Energy resilience solutions for San Diego's grid challenges.",
+        "description": "With SDGE's frequent public safety power shutoffs and rising rates, our battery systems keep La Mesa kitchens and Scripps Ranch home offices running smoothly. We specialize in compact lithium-ion units that fit neatly in garage corners or exterior utility spaces common in San Diego homes.\n\nFor coastal properties, we install marine-rated battery enclosures with humidity control. Inland clients receive thermal management systems to prevent overheating in Ramona or Alpine summers. All configurations include automatic transition switches that react faster than SDGE's 15-minute outage alerts.",
+        "process": [
+          "Step 1: Load analysis of your critical circuits (medical equipment, aquariums, etc.)",
+          "Step 2: Battery sizing based on your solar production and backup needs",
+          "Step 3: Integration with existing solar or new hybrid system design",
+          "Step 4: Testing with SDGE's net metering protocols"
+        ],
+        "benefits": [
+          "Seamless backup during wildfire-related outages",
+          "Time-of-use optimization to avoid peak pricing",
+          "Electric vehicle charging during blackouts",
+          "Compact designs for San Diego's smaller lots"
+        ],
+        "faq": [
+          {
+            "question": "How long will batteries last during an outage?",
+            "answer": "A typical 10kWh system powers refrigerators and lights for 18-24 hours in a 1,500 sq ft home - crucial for extended outages like the 2020 East County fires."
+          },
+          {
+            "question": "Are batteries worth it with SDGE's new rate plans?",
+            "answer": "Our clients in Tierrasanta and Mira Mesa save $400+ annually by storing solar energy for 4-9pm peak periods when rates climb to $0.80/kWh."
+          }
+        ]
+      },
+      {
+        "slug": "solar-pool-heating",
+        "name": "Solar Pool Heating",
+        "shortDescription": "Extend your swim season with San Diego's abundant sunshine.",
+        "description": "Transform your backyard oasis with solar thermal systems that maintain 78-82°F water temperatures from March through November. Our unglazed collectors work optimally in San Diego's mild climate, adding 4-6 months of comfortable swimming without gas heater costs.\n\nWe engineer each system for local conditions - using extra UV-resistant panels for east county pools, and smaller arrays for wind-protected coastal properties. All installations include smart controllers that adjust flow based on marine layer cover and seasonal sun angles.",
+        "process": [
+          "Step 1: Analysis of your pool's exposure to sun and wind patterns",
+          "Step 2: Collector sizing based on gallons and desired season length",
+          "Step 3: Plumbing integration with existing equipment pads",
+          "Step 4: Automated control programming for optimal efficiency"
+        ],
+        "benefits": [
+          "40-60% annual savings versus gas heaters",
+          "Quiet operation ideal for dense neighborhoods",
+          "Low-maintenance systems with 12-year warranties",
+          "Rebates through SoCalGas and SDGE"
+        ],
+        "faq": [
+          {
+            "question": "Will solar heating work on cloudy days?",
+            "answer": "Our systems capture diffuse UV light that penetrates marine layer clouds, maintaining temperatures even during May gray periods."
+          },
+          {
+            "question": "How does it handle Santa Ana winds?",
+            "description": "We install wind-rated mounting with flexible connections that withstand 50+ mph gusts common in Santee and El Cajon."
+          }
+        ]
+      },
+      {
+        "slug": "commercial-solar",
+        "name": "Commercial Solar",
+        "shortDescription": "Energy solutions for San Diego businesses and nonprofits.",
+        "description": "From Gaslamp Quarter restaurants to Kearny Mesa auto shops, we design commercial solar systems that maximize San Diego's commercial energy incentives. Our team navigates complex permitting for flat roofs downtown and ground mounts in industrial zones.\n\nFor hospitality businesses, we create discreet systems that preserve ocean views. Manufacturers benefit from our high-capacity carport solutions that provide shade parking while generating power. All commercial installations include detailed ROI analysis factoring in SDG&E's A-6 rates and California's solar mandate for new constructions.",
+        "process": [
+          "Step 1: Analysis of your business's load profile and rate schedule",
+          "Step 2: Design review with property managers and city planners",
+          "Step 3: Staged installation to minimize operational disruptions",
+          "Step 4: Commissioning with SDG&E's commercial net metering team"
+        ],
+        "benefits": [
+          "30-50% reduction in demand charges",
+          "Enhanced sustainability marketing for eco-conscious customers",
+          "Carport solutions that double as employee shaded parking",
+          "PPA and leasing options available"
+        ],
+        "faq": [
+          {
+            "question": "What about historic buildings in Little Italy?",
+            "description": "We've successfully installed on 20+ historic properties using standing seam metal roof integrations that preserve architectural integrity."
+          },
+          {
+            "question": "How long is the payback period for restaurants?",
+            "description": "Most food service clients in Hillcrest and North Park achieve ROI in 3-5 years thanks to high refrigeration loads and extended operating hours."
+          }
+        ]
+      },
+      {
+        "slug": "solar-maintenance",
+        "name": "Solar Maintenance",
+        "shortDescription": "Protect your investment with San Diego-specific solar care.",
+        "description": "San Diego's unique environment requires specialized solar maintenance. Coastal systems need quarterly rinses to remove salt accumulation, while inland arrays benefit from pollen clears during spring bloom. Our Platinum Care program addresses all local challenges.\n\nWe monitor for micro-cracks from minor seismic activity common in Clairemont and University City. Technicians check torque on racking after Santa Ana wind events. All maintenance includes thermal imaging to detect hot spots caused by our intense UV exposure - catching issues before they impact production.",
+        "process": [
+          "Step 1: Comprehensive system health check with drone inspection",
+          "Step 2: Panel cleaning with deionized water to prevent hard water spots",
+          "Step 3: Electrical testing of all connections and inverters",
+          "Step 4: Performance report comparing actual vs expected output"
+        ],
+        "benefits": [
+          "15% higher production from regularly cleaned systems",
+          "Early detection of wildlife nesting under panels",
+          "Compliance with warranty requirements",
+          "Priority service for storm damage repairs"
+        ],
+        "faq": [
+          {
+            "question": "How often should coastal systems be serviced?",
+            "answer": "Homes within 5 miles of the ocean need biannual cleaning to prevent salt film buildup that can reduce efficiency by up to 8%."
+          },
+          {
+            "question": "Do you handle pigeon proofing?",
+            "description": "Yes - we install mesh barriers customized for San Diego's common roof types, preventing nesting that's prevalent in older neighborhoods."
+          }
+        ]
+      }
+    ],
+    "reviews": [
+      {
+        "name": "Mikael T.",
+        "rating": 5,
+        "service": "Residential Solar Installation",
+        "text": "The team designed a brilliant solution for our 1947 Spanish revival in North Park where the original clay tiles couldn't support conventional mounting. Their custom brackets preserved the roof's character while squeezing every watt from our narrow lot. Six months in, we're producing 20% more than their estimate.",
+        "date": "2023-11-15"
+      },
+      {
+        "name": "Sophia R.",
+        "rating": 5,
+        "service": "Solar Battery Storage",
+        "text": "When the power went out during last October's wind event, our batteries in Scripps Ranch kept the lights on for 22 hours straight. Legacy's install was so clean you'd never know the Powerwalls were there - they even matched the stucco texture on the exterior enclosure.",
+        "date": "2023-12-02"
+      },
+      {
+        "name": "Daniel K.",
+        "rating": 5,
+        "service": "Solar Pool Heating",
+        "text": "Our pool in Encinitas now stays at 80°F from April through November without touching the gas heater. The collectors blend perfectly with our roof and the smart controller adjusts for marine layer mornings automatically. Already paid for itself in one season.",
+        "date": "2024-01-18"
+      },
+      {
+        "name": "Aisha P.",
+        "rating": 5,
+        "service": "Commercial Solar",
+        "text": "As a brewery in Miramar, our energy costs were killing us. Legacy's carport system covers 12 employee parking spots while powering 100% of our cold storage. The SDG&E interconnect was flawless and we've become a sustainability showcase for the craft beer community.",
+        "date": "2023-10-05"
+      },
+      {
+        "name": "Carlos M.",
+        "rating": 5,
+        "service": "Solar Maintenance",
+        "text": "After another company abandoned our 10-year-old system in La Mesa, Legacy revived it to 92% of original capacity. Their thermal scan found two failing microinverters we didn't know about, and the salt removal treatment made our panels look brand new. Worth every penny.",
+        "date": "2024-02-22"
+      },
+      {
+        "name": "Elena S.",
+        "rating": 5,
+        "service": "Residential Solar Installation",
+        "text": "Living near Torrey Pines, we needed experts who understood coastal challenges. Legacy's marine-grade hardware and precise tilt angle have our system outperforming neighbors' by 15% despite identical sun exposure. Their crew even coordinated perfectly with our roof replacement.",
+        "date": "2023-09-30"
+      }
+    ],
+    "seo": {
+      "homepage": {
+        "title": "San Diego Solar Experts | Legacy Solar",
+        "description": "Local solar installation company serving San Diego County with climate-smart designs for coastal and inland homes since 2012."
+      },
+      "about": {
+        "title": "About Our San Diego Solar Company",
+        "description": "Legacy Solar brings 12+ years of local expertise to every solar project in San Diego County, from coastal cottages to inland ranches."
+      },
+      "services": {
+        "title": "San Diego Solar Services | Residential & Commercial",
+        "description": "Complete solar solutions for San Diego homes and businesses, including battery storage, pool heating, and specialized maintenance."
+      },
+      "contact": {
+        "title": "Contact Legacy Solar in San Diego",
+        "description": "Get a free solar consultation for your San Diego home or business. Serving all neighborhoods from La Jolla to Escondido."
+      },
+      "reviews": {
+        "title": "San Diego Solar Customer Reviews",
+        "description": "See why San Diego homeowners and businesses trust Legacy Solar for custom renewable energy solutions."
+      },
+      "service-areas": {
+        "title": "San Diego Solar Service Areas",
+        "description": "Local solar installation serving Chula Vista, Carlsbad, Escondido and all San Diego County communities since 2012."
+      }
+    },
+    "companyInfo": {
+      "yearsInBusiness": 12,
+      "projectsCompleted": "800+",
+      "satisfaction": "97%",
+      "teamSize": "20+"
+    },
+    "serviceAreas": [
+      {
+        "city": "Chula Vista",
+        "slug": "chula-vista-ca",
+        "state": "CA",
+        "content": "Legacy Solar proudly serves Chula Vista, a vibrant city with a population of around 275,000 residents. Many homes here were built in the 1970s and 1980s, making them ideal candidates for solar panel upgrades to improve energy efficiency. With San Diego's mild year-round climate, solar energy is a smart investment for homeowners looking to reduce their electricity bills and environmental impact. Our team specializes in custom solar solutions tailored to Chula Vista's suburban neighborhoods, ensuring maximum energy savings. Whether you live in Eastlake or Otay Ranch, we can help you harness the power of the sun.",
+        "localContext": "Chula Vista is known for its suburban charm and family-friendly communities, with many homes benefiting from solar upgrades.",
+        "nearbyAreas": [
+          "San Diego",
+          "National City",
+          "Bonita"
+        ]
+      },
+      {
+        "city": "Carlsbad",
+        "slug": "carlsbad-ca",
+        "state": "CA",
+        "content": "Legacy Solar is proud to serve Carlsbad, a beautiful beach community with approximately 115,000 residents. Many homes here are charming cottages that can greatly benefit from solar energy solutions. Carlsbad's mild year-round climate makes it perfect for solar panel installations, providing consistent energy production. Our team understands the unique architectural styles of Carlsbad homes and offers seamless solar integrations that preserve their aesthetic appeal. From La Costa to Aviara, we help homeowners take advantage of clean, renewable energy.",
+        "localContext": "Carlsbad's coastal vibe and sunny weather make it an ideal location for solar energy solutions.",
+        "nearbyAreas": [
+          "Oceanside",
+          "Encinitas",
+          "Vista"
+        ]
+      },
+      {
+        "city": "Escondido",
+        "slug": "escondido-ca",
+        "state": "CA",
+        "content": "Legacy Solar is dedicated to serving Escondido, a city of around 152,000 residents with many ranch-style homes built in the 1960s and 1970s. These homes often have ample roof space, perfect for solar panel installations. Escondido's mild year-round climate ensures optimal solar energy production, helping homeowners save on electricity costs. Our team specializes in designing solar systems that complement the unique layout of Escondido's properties. From Hidden Meadows to Felicita, we provide reliable and efficient solar solutions tailored to your needs.",
+        "localContext": "Escondido's spacious ranch homes and sunny weather create excellent opportunities for solar energy adoption.",
+        "nearbyAreas": [
+          "San Marcos",
+          "Valley Center",
+          "Poway"
+        ]
+      },
+      {
+        "city": "San Diego",
+        "slug": "san-diego-ca",
+        "state": "CA",
+        "content": "Legacy Solar is proud to serve San Diego, a bustling city with a diverse range of homes and businesses. With its mild year-round climate, San Diego is one of the best places in the country for solar energy. Our team offers customized solar solutions for everything from historic bungalows to modern estates. Whether you're in North Park or La Jolla, we can help you reduce your carbon footprint and energy bills. Solar power is a smart investment in San Diego, where sunshine is abundant and energy costs are high.",
+        "localContext": "San Diego's sunny weather and progressive energy policies make it a prime location for solar installations.",
+        "nearbyAreas": [
+          "La Mesa",
+          "El Cajon",
+          "Coronado"
+        ]
+      },
+      {
+        "city": "Oceanside",
+        "slug": "oceanside-ca",
+        "state": "CA",
+        "content": "Legacy Solar is excited to serve Oceanside, a coastal city with a relaxed vibe and plenty of sunshine. Many homes here feature spacious roofs that are perfect for solar panels. Oceanside's mild year-round climate ensures consistent energy production from solar installations. Our team specializes in designing systems that withstand coastal conditions while maximizing efficiency. From the historic downtown to the Fire Mountain area, we help Oceanside residents go solar with confidence.",
+        "localContext": "Oceanside's beachfront properties and sunny days make solar energy a natural fit for homeowners.",
+        "nearbyAreas": [
+          "Carlsbad",
+          "Vista",
+          "Camp Pendleton"
+        ]
+      },
+      {
+        "city": "Encinitas",
+        "slug": "encinitas-ca",
+        "state": "CA",
+        "content": "Legacy Solar is proud to serve Encinitas, a laid-back beach town with a strong commitment to sustainability. Many homes here are ideal for solar panel installations, thanks to their open roof designs and sunny locations. Encinitas' mild year-round climate ensures that solar systems perform at their best year-round. Our team works closely with homeowners in neighborhoods like Leucadia and Olivenhain to create tailored solar solutions. Going solar in Encinitas is not just smart—it's a way to support the community's green initiatives.",
+        "localContext": "Encinitas' eco-friendly culture and abundant sunshine make solar energy a popular choice for residents.",
+        "nearbyAreas": [
+          "Carlsbad",
+          "Solana Beach",
+          "Rancho Santa Fe"
+        ]
+      },
+      {
+        "city": "La Mesa",
+        "slug": "la-mesa-ca",
+        "state": "CA",
+        "content": "Legacy Solar is dedicated to serving La Mesa, a charming city known for its friendly neighborhoods and sunny weather. Many homes here are perfect for solar panel installations, offering ample roof space and excellent sun exposure. La Mesa's mild year-round climate ensures that solar systems operate efficiently throughout the year. Our team specializes in helping homeowners in areas like Mount Helix and Grossmont transition to clean energy. With rising electricity costs, solar power is a wise investment for La Mesa residents.",
+        "localContext": "La Mesa's hilly terrain and sunny days create ideal conditions for solar energy production.",
+        "nearbyAreas": [
+          "San Diego",
+          "El Cajon",
+          "Spring Valley"
+        ]
+      },
+      {
+        "city": "Poway",
+        "slug": "poway-ca",
+        "state": "CA",
+        "content": "Legacy Solar is proud to serve Poway, a family-friendly city with spacious homes and plenty of sunshine. Many properties here feature large roofs that are perfect for solar panel installations. Poway's mild year-round climate ensures reliable energy production from solar systems. Our team works with homeowners in neighborhoods like Sabre Springs and Twin Peaks to design custom solar solutions. With Poway's commitment to sustainability, solar energy is a natural fit for the community.",
+        "localContext": "Poway's open spaces and sunny weather make it an excellent location for solar energy adoption.",
+        "nearbyAreas": [
+          "Rancho Bernardo",
+          "Escondido",
+          "Scripps Ranch"
+        ]
+      }
+    ]
+  },
+  "images": {
+    "hero": "/images/hero.webp",
+    "heroResponsive": {
+      "src": "/images/hero.webp",
+      "srcset": "/images/hero-400w.webp 400w, /images/hero-800w.webp 800w, /images/hero-1200w.webp 1200w, /images/hero.webp 1376w",
+      "sizes": "100vw",
+      "width": 1376,
+      "height": 768
+    },
+    "about": "/images/about.webp",
+    "aboutResponsive": {
+      "src": "/images/about.webp",
+      "srcset": "/images/about-400w.webp 400w, /images/about-800w.webp 800w, /images/about-1200w.webp 1200w, /images/about.webp 1200w",
+      "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+      "width": 1200,
+      "height": 896
+    },
+    "services": {
+      "residential-solar-installation": "/images/service-residential-solar-installation.webp",
+      "solar-battery-storage": "/images/service-solar-battery-storage.webp",
+      "solar-pool-heating": "/images/service-solar-pool-heating.webp",
+      "commercial-solar": "/images/service-commercial-solar.webp",
+      "solar-maintenance": "/images/service-solar-maintenance.webp"
+    },
+    "servicesResponsive": {
+      "residential-solar-installation": {
+        "src": "/images/service-residential-solar-installation.webp",
+        "srcset": "/images/service-residential-solar-installation-400w.webp 400w, /images/service-residential-solar-installation-800w.webp 800w, /images/service-residential-solar-installation-1200w.webp 1200w, /images/service-residential-solar-installation.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "solar-battery-storage": {
+        "src": "/images/service-solar-battery-storage.webp",
+        "srcset": "/images/service-solar-battery-storage-400w.webp 400w, /images/service-solar-battery-storage-800w.webp 800w, /images/service-solar-battery-storage-1200w.webp 1200w, /images/service-solar-battery-storage.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "solar-pool-heating": {
+        "src": "/images/service-solar-pool-heating.webp",
+        "srcset": "/images/service-solar-pool-heating-400w.webp 400w, /images/service-solar-pool-heating-800w.webp 800w, /images/service-solar-pool-heating-1200w.webp 1200w, /images/service-solar-pool-heating.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "commercial-solar": {
+        "src": "/images/service-commercial-solar.webp",
+        "srcset": "/images/service-commercial-solar-400w.webp 400w, /images/service-commercial-solar-800w.webp 800w, /images/service-commercial-solar-1200w.webp 1200w, /images/service-commercial-solar.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "solar-maintenance": {
+        "src": "/images/service-solar-maintenance.webp",
+        "srcset": "/images/service-solar-maintenance-400w.webp 400w, /images/service-solar-maintenance-800w.webp 800w, /images/service-solar-maintenance-1200w.webp 1200w, /images/service-solar-maintenance.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    },
+    "gallery": [
+      "/images/gallery-0.webp",
+      "/images/gallery-1.webp"
+    ],
+    "galleryResponsive": [
+      {
+        "src": "/images/gallery-0.webp",
+        "srcset": "/images/gallery-0-400w.webp 400w, /images/gallery-0-800w.webp 800w, /images/gallery-0-1200w.webp 1200w, /images/gallery-0.webp 1200w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1200,
+        "height": 896
+      },
+      {
+        "src": "/images/gallery-1.webp",
+        "srcset": "/images/gallery-1-400w.webp 400w, /images/gallery-1-800w.webp 800w, /images/gallery-1-1200w.webp 1200w, /images/gallery-1.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    ]
+  }
+}

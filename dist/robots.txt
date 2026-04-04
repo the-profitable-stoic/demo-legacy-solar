@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://demo-legacy-solar.dream-surge.com/sitemap-index.xml
